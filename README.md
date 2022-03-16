@@ -1,8 +1,14 @@
 # Express Serverless Lambda API
 
-This is a blank project for TypeScript development with CDK.
+The minimal cloudformation pattren for serverless Express Lambda API gateway.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Technologies used
+- MongoDB
+- AWS Lambda
+- AWS ApiGateway
+- AWS CDK
+- Express Web Server
+- TypeScript
 
 ## Useful commands
 
