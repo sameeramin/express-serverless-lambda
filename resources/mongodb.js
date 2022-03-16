@@ -1,6 +1,7 @@
 const { MongoClient } = require("mongodb");
 
-var URI = process.env.MONGODB_URI;
+var URI =
+    process.env.MONGODB_URI || "mongodb://localhost:27017/web-health-check";
 
 // Read all urls
 async function dbReadAll() {
